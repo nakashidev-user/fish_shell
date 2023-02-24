@@ -22,7 +22,7 @@ if status is-interactive
     alias vi nvim
     alias g git
     alias gg "go run"
-    alias cdl "cd .."
+    alias cdw "cd .."
     command -qv nvim && alias vim nvim
 
     set -gx EDITOR nvim
