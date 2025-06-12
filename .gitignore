@@ -1,0 +1,10 @@
+./fish_variables
+./fish_plugins
+./fishd.tmp.HKApfy
+./fishd.tmp.mHT0Gg
+fishd.tmp.*
+.DS_Store
+/**/.DS_Store
+
+
+./conf.d
