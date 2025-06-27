@@ -1,0 +1,46 @@
+# name: 'solarized-osaka'
+# url: 'https://github.com/craftzdog/solarized-osaka.nvim'
+# preferred_background: 002b36
+
+# Solarized Osaka color scheme for Fish shell
+# Based on the modern interpretation of Solarized Dark
+# with enhanced colors for better readability on modern displays
+
+# Base colors (Solarized Dark foundation with Osaka enhancements)
+# Background: #002b36 (base03 - dark blue-green)
+# Foreground: #839496 (base0 - bright blue-gray)
+
+# Syntax colors
+fish_color_normal 839496 # Normal text - base0 (bright blue-gray)
+fish_color_command 268bd2 # Commands - blue
+fish_color_param 93a1a1 # Parameters - base1 (light blue-gray)
+fish_color_keyword dc322f # Keywords - red
+fish_color_quote 2aa198 # Quotes - cyan
+fish_color_redirection 6c71c4 # Redirections - violet
+fish_color_end 859900 # End statements - green
+fish_color_comment 586e75 # Comments - base01 (dark blue-gray)
+fish_color_error dc322f # Errors - red
+fish_color_gray 586e75 # Gray text - base01
+fish_color_selection --background=073642 # Selection - base02 (dark gray)
+fish_color_search_match --background=b58900 # Search matches - yellow background
+fish_color_option cb4b16 # Options - orange
+fish_color_operator 6c71c4 # Operators - violet
+fish_color_escape d33682 # Escape sequences - magenta
+fish_color_autosuggestion 586e75 # Autosuggestions - base01 (dimmed)
+fish_color_cancel dc322f # Cancel - red
+fish_color_cwd b58900 # Current directory - yellow
+fish_color_user 2aa198 # Username - cyan
+fish_color_host 859900 # Hostname - green
+fish_color_host_remote cb4b16 # Remote hostname - orange
+fish_color_status dc322f # Status (error) - red
+
+# Pager colors (for completions)
+fish_pager_color_progress 586e75 # Progress indicator - base01
+fish_pager_color_prefix 268bd2 # Completion prefix - blue
+fish_pager_color_completion 839496 # Completion text - base0
+fish_pager_color_description 586e75 # Completion descriptions - base01
+
+# Additional Solarized Osaka specific enhancements
+# These provide better contrast and readability
+fish_color_valid_path --underline # Valid paths - underlined
+fish_color_match 6c71c4 # Matching parentheses - violet
